@@ -110,14 +110,14 @@ console.log(filter(words));
 
 // FACTORIAL FUNCTION
 function factorial(num) {
-  let fac = num;
-  for (let i = 1; i < num; i++) {
+  let fac = 1;
+  for (let i = 1; i <= num; i++) {
     fac = fac * i;
   }
   return fac;
 }
 
-console.log(factorial(7));
+console.log(factorial(0));
 
 // PRIME FUNCTION
 function prime(num) {
