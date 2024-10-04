@@ -148,7 +148,7 @@ function fibonacci(num) {
     sum = sum + arr[i - 1];
     arr.push(sum);
   }
-  return sum;
+  return String(arr);
 }
 
 console.log(fibonacci(20));
